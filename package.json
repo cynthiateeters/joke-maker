@@ -1,0 +1,29 @@
+{
+  "name": "node-demo-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "rm -rf dist && parcel src/index.html",
+    "build": "rm -rf dist && parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cynthiateeters/node-demo-start.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cynthiateeters/node-demo-start/issues"
+  },
+  "homepage": "https://github.com/cynthiateeters/node-demo-start#readme",
+  "dependencies": {
+    "awesome-dev-jokes": "^1.0.3",
+    "detect-browser": "^5.2.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

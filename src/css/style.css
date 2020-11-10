@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.joke {
+  max-width: 50ch;
+  padding: 4rem;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0, 0.15);
+}
